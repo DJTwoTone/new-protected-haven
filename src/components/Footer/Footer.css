@@ -1,0 +1,29 @@
+footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    height: 3.5rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6327a0;
+    height: 100%;
+    
+}
+
+footer ul li {
+    background-color: #6327a0;
+    list-style: none;
+    font-size: 1rem;
+}
+
+footer ul li a {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+}
