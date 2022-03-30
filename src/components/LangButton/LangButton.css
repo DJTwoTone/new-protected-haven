@@ -1,0 +1,16 @@
+.lang-button {
+    cursor: pointer;
+    background-color: #6327a0;
+    color: #f6e952;
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 4px 6px 16px 0px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+}
