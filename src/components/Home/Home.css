@@ -1,6 +1,6 @@
 #lang-section {
     width: 100vw;
-    /* height: 80vh; */
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -13,6 +13,7 @@
     color: #73cbed;
     font-family: Oswald;
     margin-bottom: 50px;
+    text-align: center;
 
 }
 

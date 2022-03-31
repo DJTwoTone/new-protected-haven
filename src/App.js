@@ -23,7 +23,11 @@ function App() {
   
   //set that part of the translation to state
   //if no translation set english  
-  const langauges = Object.values(translations).map(lang => lang.script);
+  const langauges = Object.values(translations).map(lang => ({
+    name: lang.script,
+    code: lang.code,
+    welcome: lang.welcome
+  }));
   
   //pass translations to form from state
 
@@ -32,7 +36,7 @@ function App() {
       <Header />
       <Logo />
       <Routes>
-        <Route path="/" element={<Home langauges={langauges} setUserlang={setUserlang} displayLang={displayLang} setDisplayLang={setDisplayLang}/>} />
+        <Route path="/" element={<Home welcome={displayLang.welcome} langauges={langauges} setUserlang={setUserlang} displayLang={displayLang} setDisplayLang={setDisplayLang}/>} />
         <Route path='report/:lang' element={<Report displayLang={displayLang}/>} />
       </Routes>
       
