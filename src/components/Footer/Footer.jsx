@@ -4,7 +4,6 @@ import './Footer.css';
 function Footer({displayLang}) {
   
   const { police, medical, information } = displayLang;
-  console.log(displayLang);
 
   return (
     <footer>

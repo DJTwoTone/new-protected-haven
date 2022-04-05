@@ -11,7 +11,7 @@ function Home({langauges, welcome}) {
         <h2>{welcome}</h2>
         <div id="language-container">
           {langauges.map(lang => (
-            <LangButton key={lang.code} lang={lang.name} />
+            <LangButton key={lang.code} lang={lang.name} code={lang.code} />
           ))}
         </div>
     </section>
