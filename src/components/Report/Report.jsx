@@ -93,10 +93,10 @@ function Report({displayLang, changeDisplayLang}) {
 
           </div>
         </div>
-        <button type="submit">{displayLang.formSubmit}</button>
+        <button type="submit" className='submit-btn'>{displayLang.formSubmit}</button>
       </form>
       <hr />
-      <button type="button">{displayLang.formCancel}</button>
+      <button type="button" className='cancel-btn'>{displayLang.formCancel}</button>
     </div>
   )
 }
